@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.admin.mytripcart.MainActivity">
+    <item
+        android:id="@+id/history"
+        android:orderInCategory="1"
+        android:icon="@drawable/history1"
+        android:title="History"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/logout"
+        android:orderInCategory="1"
+        android:icon="@drawable/logout"
+        app:showAsAction="always"
+        android:title="Logout"
+         />
+
+
+</menu>

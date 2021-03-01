@@ -1,0 +1,22 @@
+<resources>
+
+    <string name="app_name"> </string>
+
+    <string name="logout">Logout</string>
+    <string name="shotcut"></string>
+    <string name="drawer_open"> </string>
+    <string name="drawer_close"></string>
+    <string-array name="nav_drawer_items">
+        <item >Logout</item>
+        <item >History</item>
+    </string-array>
+    <array name="nav_drawer_icons">
+        <item>@drawable/logout</item>
+        <item>@drawable/logout</item>
+
+    </array>
+    <!-- Content Description -->
+    <string name="desc_list_item_icon"></string>
+
+
+</resources>

@@ -1,0 +1,67 @@
+[{
+ "operator": "AIRCEL",
+ "opcode": "HACL"
+}, {
+ "operator": "AIRTEL",
+ "opcode": "HART"
+}, {
+ "operator": "BSNL",
+ "opcode": "HBST"
+}, {
+ "operator": "BSNL VALIDITY",
+ "opcode": "HBSV"
+}, {
+ "operator": "IDEA",
+ "opcode": "HIDE"
+}, {
+ "operator": "LOOP",
+ "opcode": "HBPL"
+}, {
+ "operator": "MTNL DELHI",
+ "opcode": "HMDT"
+}, {
+ "operator": "MTNL MUMBAI",
+ "opcode": "HMTN"
+}, {
+ "operator": "MTS",
+ "opcode": "HMTS"
+}, {
+ "operator": "RELIANCE CDMA",
+ "opcode": "HREC"
+}, {
+ "operator": "RELIANCE GSM",
+ "opcode": "HREG"
+}, {
+ "operator": "TATA DOCOMO",
+ "opcode": "HTAD"
+}, {
+ "operator": "TATA DOCOMO SPECIAL",
+ "opcode": "HTDS"
+}, {
+ "operator": "TATA INDICOM",
+ "opcode": "HTAI"
+}, {
+ "operator": "UNINOR\\TELENOR",
+ "opcode": "HUNI"
+}, {
+ "operator": "UNINOR\\TELENOR SPECIAL",
+ "opcode": "HUNS"
+}, {
+ "operator": "VIDEOCON",
+ "opcode": "HVID"
+}, {
+ "operator": "VIDEOCON SPECIAL",
+ "opcode": "HVIS"
+}, {
+ "operator": "VIRGIN CDMA",
+ "opcode": "HVIC"
+}, {
+ "operator": "VIRGIN GSM",
+ "opcode": "HVIG"
+}, {
+ "operator": "VIRGIN GSM SPECIAL",
+ "opcode": "HVGS"
+}, {
+ "operator": "VODAFONE",
+ "opcode": "HVOD"
+}]

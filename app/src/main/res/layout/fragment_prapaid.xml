@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/prepaidfragment"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="30dp"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:id="@+id/line1"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Prepaid Mobile No."
+            android:layout_marginLeft="4dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:inputType="numberSigned"
+            android:ems="7"
+            android:id="@+id/prepaid"
+            android:paddingLeft="7dp"
+            android:background="@drawable/name"
+            android:maxLength="12" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="Select Operator"
+            android:layout_marginLeft="4dp"
+            />
+
+        <Spinner
+            android:id="@+id/prepaidOperator"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/dropdown"
+            android:layout_marginTop="15dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Recharge Amount"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="4dp"/>
+        />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberSigned"
+            android:id="@+id/amount"
+            android:background="@drawable/name"
+            android:paddingLeft="7dp"
+            android:layout_marginTop="10dp"
+            android:maxLength="5"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/proced"
+            android:id="@+id/Process"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:text="Powered By Satkar Technologies"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+       <!-->-->
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="100dp"-->
+            <!--android:text="Powered By Satkar Technologies"-->
+            <!--android:layout_gravity="center"/>-->
+    <!--</LinearLayout>-->
+</LinearLayout>

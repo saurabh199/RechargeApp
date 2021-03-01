@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:overScrollMode="always">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:background="#323299"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="#FFF"
+            android:textSize="30sp"
+            android:text="M-PIN"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <EditText
+            android:layout_width="45dp"
+            android:layout_height="50dp"
+            android:password="true"
+            android:inputType="number"
+
+            android:id="@+id/p1"
+            android:maxLength="1"
+            android:imeOptions="actionNext"
+            android:background="@drawable/txt"
+            android:textColor="@android:color/primary_text_light"/>
+        <EditText
+            android:layout_width="45dp"
+            android:layout_height="50dp"
+            android:password="true"
+            android:inputType="number"
+            android:maxLength="1"
+
+            android:imeOptions="actionNext"
+            android:id="@+id/p2"
+            android:layout_marginLeft="7dp"
+            android:singleLine="true"
+            android:background="@drawable/txt"
+            android:textColor="@android:color/primary_text_light"/>
+        <EditText
+            android:layout_width="45dp"
+            android:layout_height="50dp"
+            android:password="true"
+            android:inputType="number"
+            android:id="@+id/p3"
+
+            android:maxLength="1"
+            android:layout_marginLeft="7dp"
+            android:background="@drawable/txt"
+            android:textColor="@android:color/primary_text_light"/>
+        <EditText
+            android:layout_width="45dp"
+            android:layout_height="50dp"
+            android:password="true"
+            android:inputType="number"
+            android:id="@+id/p4"
+
+            android:maxLength="1"
+            android:layout_marginLeft="7dp"
+            android:background="@drawable/txt"
+            android:textColor="@android:color/primary_text_light"/>
+        <EditText
+            android:layout_width="45dp"
+            android:layout_height="50dp"
+            android:id="@+id/p5"
+            android:password="true"
+            android:inputType="number"
+
+            android:maxLength="1"
+            android:layout_marginLeft="7dp"
+            android:background="@drawable/txt"
+            android:textColor="@android:color/primary_text_light"/>
+        <EditText
+            android:layout_width="45dp"
+            android:layout_height="50dp"
+            android:password="true"
+            android:inputType="number"
+            android:id="@+id/p6"
+
+            android:maxLength="1"
+            android:layout_marginLeft="7dp"
+            android:background="@drawable/txt"
+            android:textColor="@android:color/primary_text_light"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+        <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:id="@+id/pin"-->
+
+        <!--android:text="Forget M-Pin"-->
+        <!--android:layout_marginLeft="25dp"-->
+        <!--android:layout_marginTop="10dp"/>-->
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/submit"
+            android:layout_marginTop="15dp"
+            android:id="@+id/btn"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Powered By Satkar Technologies"
+            android:layout_gravity="center"
+            android:layout_marginTop="270dp"
+            />
+    </LinearLayout>
+
+</LinearLayout>
+
+

@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.admin.mytripcart.MainActivity">
+    <item
+        android:id="@+id/date"
+        android:orderInCategory="1"
+        android:icon="@drawable/calendar1"
+        android:title="Date"
+        app:showAsAction="always" />
+    </menu>
